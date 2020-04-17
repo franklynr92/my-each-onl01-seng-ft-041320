@@ -1,11 +1,11 @@
-def my_each(arr) # put argument(s) here
+def my_each(arg) # put argument(s) here
   n = 0
-  while n < arr.length
+  while n < arg.length
 #     # Will yield the specific iteration to a seperate block
-   yield(arr[n])
+   yield(arg[n])
 #     # Increments up by one
    n += 1
-   arr.map {|n|}
+   arg.map {|n|}
 end
-arr
+arg
 end
