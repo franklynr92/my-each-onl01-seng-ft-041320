@@ -1,4 +1,4 @@
 def my_each(array) # put argument(s) here
-  while
+  while n 
    array.map {|n|}
 end
