@@ -6,4 +6,5 @@ def my_each(arr) # put argument(s) here
    i += 1
    arr.map {|i|}
 end
+arr
 end
