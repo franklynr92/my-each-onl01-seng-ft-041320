@@ -7,5 +7,5 @@ def my_each(arg) # put argument(s) here
    n += 1
    arg.map {|n|}
 end
-arg
+
 end
